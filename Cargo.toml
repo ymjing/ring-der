@@ -1,0 +1,12 @@
+[package]
+name = "ring-der"
+license = "ISC"
+description = "An extended version of the ASN.1 DER parser of *ring*"
+version = "0.16.20"
+edition = "2018"
+keywords = ["DER","ASN1","parser"]
+repository = "https://github.com/ymjing/ring-der"
+
+[dependencies]
+thiserror = "1.0.26"
+untrusted = "0.7.1"
